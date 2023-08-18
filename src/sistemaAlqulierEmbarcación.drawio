@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-18T18:24:01.995Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="mWr87fDfy7OjK-6oL61u" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-18T18:25:15.578Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="-R_GxeTuys22dWA0K1lF" version="21.6.8" type="github">
   <diagram name="Página-1" id="jO0E5KtSAngkffYx32OW">
     <mxGraphModel dx="880" dy="1836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
             <mxPoint x="560" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tVpfk1Q1O8TMySKOHstT-10" value="ClassCapitan" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tVpfk1Q1O8TMySKOHstT-10" value="class Capitan" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="-250" width="250" height="108" as="geometry" />
         </mxCell>
         <mxCell id="tVpfk1Q1O8TMySKOHstT-11" value="-nombre:(String);&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="tVpfk1Q1O8TMySKOHstT-10">
