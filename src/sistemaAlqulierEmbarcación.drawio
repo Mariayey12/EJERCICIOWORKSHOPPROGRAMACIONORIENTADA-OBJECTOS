@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-18T18:25:15.578Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="-R_GxeTuys22dWA0K1lF" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-18T18:35:48.402Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="KsTt_KSz_y5xtZ1PxVz9" version="21.6.8" type="github">
   <diagram name="Página-1" id="jO0E5KtSAngkffYx32OW">
     <mxGraphModel dx="880" dy="1836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
       <root>
@@ -33,6 +33,9 @@
         </mxCell>
         <mxCell id="tVpfk1Q1O8TMySKOHstT-13" value="-matricula:(String);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="tVpfk1Q1O8TMySKOHstT-10">
           <mxGeometry y="82" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tVpfk1Q1O8TMySKOHstT-19" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Abstract &amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;class Embarcacion&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-capitan: (Capitan);&lt;br&gt;- precioBase:(double);&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-valorAdicional:(double);&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-añóFabricacion:(int);&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-eslora:(double);&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+getCapitan:(Capitan);&amp;nbsp;&lt;br&gt;+ : Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="530" y="-270" width="220" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
