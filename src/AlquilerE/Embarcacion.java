@@ -1,5 +1,4 @@
 package AlquilerE;
-
 abstract class Embarcacion implements Alquiler {
     private Capitan capitan;
     private double precioBase;
