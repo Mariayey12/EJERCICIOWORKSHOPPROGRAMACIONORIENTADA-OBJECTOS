@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-20T19:59:24.641Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="3_d_qGjcShnMNG6oJAaG" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-20T20:02:11.910Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="7lSVniItcdntLrhEjdmO" version="21.6.8" type="github">
   <diagram name="Página-1" id="BYGqut1vgri4-7DsjM6v">
     <mxGraphModel dx="1222" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" background="#D4E1F5" math="0" shadow="1">
       <root>
@@ -49,13 +49,13 @@
         <mxCell id="ZVzlG-HeOU7Pa4IfHeLb-24" value="+&amp;nbsp;Parqueadero(filas,columnas, tarifaPorHora) ;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZVzlG-HeOU7Pa4IfHeLb-19">
           <mxGeometry y="86" width="300" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="ZVzlG-HeOU7Pa4IfHeLb-25" value="+&amp;nbsp;parquearCarro(Carro carro, fila, columna)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZVzlG-HeOU7Pa4IfHeLb-19">
+        <mxCell id="ZVzlG-HeOU7Pa4IfHeLb-25" value="+&amp;nbsp;parquearCarro(Carro carro, fila, columna) : double;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZVzlG-HeOU7Pa4IfHeLb-19">
           <mxGeometry y="120" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZVzlG-HeOU7Pa4IfHeLb-26" value="+&amp;nbsp;getMarca() : String ;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZVzlG-HeOU7Pa4IfHeLb-19">
+        <mxCell id="ZVzlG-HeOU7Pa4IfHeLb-26" value="+&amp;nbsp;cobrarPorTiempo(Carro carro, horas) double;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZVzlG-HeOU7Pa4IfHeLb-19">
           <mxGeometry y="146" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZVzlG-HeOU7Pa4IfHeLb-27" value="+ getModelo:()String ;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZVzlG-HeOU7Pa4IfHeLb-19">
+        <mxCell id="ZVzlG-HeOU7Pa4IfHeLb-27" value="+&amp;nbsp;mostrarEstadoParqueadero(): void;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZVzlG-HeOU7Pa4IfHeLb-19">
           <mxGeometry y="172" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZVzlG-HeOU7Pa4IfHeLb-28" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=-0.013;entryY=1.058;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZVzlG-HeOU7Pa4IfHeLb-2" target="ZVzlG-HeOU7Pa4IfHeLb-20">
