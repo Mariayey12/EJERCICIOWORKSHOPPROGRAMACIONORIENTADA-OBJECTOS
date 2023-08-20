@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-08-20T20:02:11.910Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="7lSVniItcdntLrhEjdmO" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-20T20:08:35.048Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="jmYupExe1W-Ff2cNA5Eg" version="21.6.8" type="github">
   <diagram name="Página-1" id="BYGqut1vgri4-7DsjM6v">
     <mxGraphModel dx="1222" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" background="#D4E1F5" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ZVzlG-HeOU7Pa4IfHeLb-1" value="Class&amp;nbsp;Carro" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="80" width="230" height="216" as="geometry" />
+        <mxCell id="ZVzlG-HeOU7Pa4IfHeLb-1" value="Class&amp;nbsp;Carro" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="70" y="71" width="230" height="216" as="geometry" />
         </mxCell>
         <mxCell id="ZVzlG-HeOU7Pa4IfHeLb-2" value="-&amp;nbsp;&amp;nbsp;placa :&amp;nbsp;&amp;nbsp;String;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZVzlG-HeOU7Pa4IfHeLb-1">
           <mxGeometry y="26" width="230" height="26" as="geometry" />
@@ -35,7 +35,7 @@
           <mxGeometry x="380" y="90" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZVzlG-HeOU7Pa4IfHeLb-19" value="Class&amp;nbsp;&amp;nbsp;Parqueadero&amp;nbsp;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="70" width="300" height="198" as="geometry" />
+          <mxGeometry x="530" y="80" width="300" height="198" as="geometry" />
         </mxCell>
         <mxCell id="ZVzlG-HeOU7Pa4IfHeLb-20" value="-&amp;nbsp; &amp;nbsp;Carro[][] matrizParqueadero ;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZVzlG-HeOU7Pa4IfHeLb-19">
           <mxGeometry y="26" width="300" height="26" as="geometry" />
@@ -58,11 +58,14 @@
         <mxCell id="ZVzlG-HeOU7Pa4IfHeLb-27" value="+&amp;nbsp;mostrarEstadoParqueadero(): void;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZVzlG-HeOU7Pa4IfHeLb-19">
           <mxGeometry y="172" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZVzlG-HeOU7Pa4IfHeLb-28" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=-0.013;entryY=1.058;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZVzlG-HeOU7Pa4IfHeLb-2" target="ZVzlG-HeOU7Pa4IfHeLb-20">
+        <mxCell id="ZVzlG-HeOU7Pa4IfHeLb-38" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.95;exitY=0.751;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZVzlG-HeOU7Pa4IfHeLb-3" target="ZVzlG-HeOU7Pa4IfHeLb-24">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="329.99999999999994" y="136.75599999999997" as="sourcePoint" />
-            <mxPoint x="576.44" y="132" as="targetPoint" />
+            <mxPoint x="330" y="180" as="sourcePoint" />
+            <mxPoint x="490" y="180" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ZVzlG-HeOU7Pa4IfHeLb-40" value="Diagrama UML sistema Parqueadero." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="8" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
