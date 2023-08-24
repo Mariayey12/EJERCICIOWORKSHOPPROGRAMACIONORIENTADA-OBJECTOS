@@ -1,9 +1,7 @@
 package AlquilerE;
 
 
-interface Alquiler {
-    double calcularMontoAlquiler();
-}
+
 
 class Capitan {
     private String nombre;

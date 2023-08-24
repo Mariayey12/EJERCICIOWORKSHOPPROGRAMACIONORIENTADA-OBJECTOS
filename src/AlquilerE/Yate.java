@@ -1,6 +1,6 @@
 package AlquilerE;
 
-class Yate extends Embarcacion {
+class Yate extends Embarcacion implements Alquiler{
     protected int cantCamarotes;
 
     public Yate(Capitan capitan, double precioBase, double valorAdicional, int añoFabricacion, double eslora, int cantCamarotes) {

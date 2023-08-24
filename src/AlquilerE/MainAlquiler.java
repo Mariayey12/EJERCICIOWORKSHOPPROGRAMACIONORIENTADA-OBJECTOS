@@ -55,7 +55,8 @@ public class MainAlquiler {
                 System.out.println("Cantidad de camarotes: " + yate.cantCamarotes);
                 System.out.println("Es de lujo: " + yate.esLujo());
             }
-            double montoAlquiler = embarcacion.calcularMontoAlquiler();
+
+          double montoAlquiler = ((Alquiler) embarcacion).calcularMontoAlquiler();
             System.out.println("Monto del alquiler: $" + montoAlquiler);
         }
     }

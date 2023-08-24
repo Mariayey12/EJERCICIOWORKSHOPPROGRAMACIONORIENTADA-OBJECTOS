@@ -1,6 +1,6 @@
 package AlquilerE;
 
-class Velero extends Embarcacion {
+class Velero extends Embarcacion implements Alquiler {
     protected int cantMastiles;
 
     public Velero(Capitan capitan, double precioBase, double valorAdicional, int añoFabricacion, double eslora, int cantMastiles) {

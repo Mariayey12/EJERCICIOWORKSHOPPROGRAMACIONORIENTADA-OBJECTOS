@@ -1,5 +1,5 @@
 package AlquilerE;
-abstract class Embarcacion implements Alquiler {
+class Embarcacion  {
     private Capitan capitan;
     private double precioBase;
     private double valorAdicional;
