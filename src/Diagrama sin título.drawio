@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T03:58:50.124Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="rQuYQHt77cg2cRMVWVLu" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-31T04:00:06.207Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="HlLoOy-x2jAJzEANWrGn" version="21.7.1" type="github">
   <diagram name="Página-1" id="ZE2Og2liTJ8zFDJ8wkAW">
-    <mxGraphModel dx="3370" dy="3838" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3029" dy="3687" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="D-GpD_URcGxK7QM6RUJf-1" value="classPersona&amp;nbsp;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fillColor=#F694C1;strokeColor=#AF45ED;fontColor=#095C86;html=1;whiteSpace=wrap;labelBorderColor=default;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="85" y="-2021" width="273" height="224" as="geometry" />
+          <mxGeometry x="39" y="-1985" width="273" height="224" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-5" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;- id: int.&lt;/font&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#095C86;" vertex="1" parent="D-GpD_URcGxK7QM6RUJf-1">
           <mxGeometry y="26" width="273" height="26" as="geometry" />
@@ -62,7 +62,7 @@
           <mxGeometry y="222" width="192" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-10" value="Class Vuelo-Fligh" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#AF45ED;fontColor=#095C86;fillColor=#F694C1;labelBackgroundColor=none;labelBorderColor=default;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="503" y="-1862" width="306" height="337" as="geometry" />
+          <mxGeometry x="521" y="-1840" width="306" height="337" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-36" value="-&amp;nbsp;- id : int;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#095C86;labelBackgroundColor=none;" vertex="1" parent="D-GpD_URcGxK7QM6RUJf-10">
           <mxGeometry y="26" width="306" height="26" as="geometry" />
@@ -119,7 +119,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-19" value="ClassReserva " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#AF45ED;fontColor=#095C86;fillColor=#F694C1;labelBackgroundColor=none;labelBorderColor=default;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="284" y="-1387" width="183" height="181" as="geometry" />
+          <mxGeometry x="282" y="-1396" width="183" height="181" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-20" value="- id : int;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#095C86;labelBackgroundColor=none;" vertex="1" parent="D-GpD_URcGxK7QM6RUJf-19">
           <mxGeometry y="26" width="183" height="26" as="geometry" />
@@ -140,7 +140,7 @@
           <mxGeometry y="138" width="183" height="43" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-23" value="Interface Autenticable " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#AF45ED;fontColor=#095C86;fillColor=#F694C1;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="115" y="-1064" width="177" height="60" as="geometry" />
+          <mxGeometry x="135" y="-1121" width="177" height="60" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-25" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#AF45ED;fontColor=#095C86;labelBackgroundColor=none;" vertex="1" parent="D-GpD_URcGxK7QM6RUJf-23">
           <mxGeometry y="26" width="177" height="8" as="geometry" />
@@ -164,7 +164,7 @@
           <mxGeometry y="86" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-43" value="ClassPrecios&amp;nbsp;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#AF45ED;fontColor=#095C86;fillColor=#F694C1;swimlaneFillColor=default;labelBorderColor=default;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="-1170" width="185" height="112" as="geometry" />
+          <mxGeometry x="478" y="-1236" width="185" height="112" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-44" value="-recargaportardanza: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#095C86;labelBackgroundColor=none;" vertex="1" parent="D-GpD_URcGxK7QM6RUJf-43">
           <mxGeometry y="26" width="185" height="26" as="geometry" />
@@ -215,7 +215,7 @@
           <mxGeometry y="86" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-14" value="ClassAerolíneas" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#AF45ED;fontColor=#095C86;fillColor=#F694C1;labelBackgroundColor=none;labelBorderColor=default;swimlaneFillColor=default;rounded=1;arcSize=21;" vertex="1" parent="1">
-          <mxGeometry x="233" y="-1691" width="160" height="190" as="geometry" />
+          <mxGeometry x="231" y="-1666" width="160" height="190" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-114" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;strokeColor=#60E696;fontColor=default;labelBackgroundColor=none;" edge="1" parent="D-GpD_URcGxK7QM6RUJf-14" target="D-GpD_URcGxK7QM6RUJf-54">
           <mxGeometry width="160" relative="1" as="geometry">
