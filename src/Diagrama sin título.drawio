@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T03:33:10.206Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="9B-Uwv8dfkW3nC1edDci" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-31T03:36:21.779Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Lye8_aS2fk-Nj5Cl9X52" version="21.7.1" type="github">
   <diagram name="Página-1" id="ZE2Og2liTJ8zFDJ8wkAW">
-    <mxGraphModel dx="843" dy="3194" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1003" dy="3323" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,7 +32,7 @@
           <mxGeometry y="198" width="273" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-6" value="ClassUsuario " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontColor=#182E3E;fillColor=#B1DDF0;labelBackgroundColor=default;gradientColor=default;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="146" y="-1574" width="192" height="222" as="geometry" />
+          <mxGeometry x="35" y="-1689" width="192" height="222" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-7" value="- correo : string;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#182E3E;labelBackgroundColor=none;" vertex="1" parent="D-GpD_URcGxK7QM6RUJf-6">
           <mxGeometry y="26" width="192" height="26" as="geometry" />
@@ -59,7 +59,7 @@
           <mxGeometry y="196" width="192" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-10" value="Class Vuelo-Fligh" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#66B2FF;fontColor=#182E3E;fillColor=#B1DDF0;labelBackgroundColor=default;labelBorderColor=default;gradientColor=default;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="292" y="-1473" width="306" height="337" as="geometry" />
+          <mxGeometry x="429" y="-1770" width="306" height="337" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-36" value="-&amp;nbsp;- id : int;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#1D3557;" vertex="1" parent="D-GpD_URcGxK7QM6RUJf-10">
           <mxGeometry y="26" width="306" height="26" as="geometry" />
@@ -98,7 +98,7 @@
           <mxGeometry y="294" width="306" height="43" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-19" value="ClassReserva " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontColor=#182E3E;fillColor=#B1DDF0;labelBackgroundColor=default;labelBorderColor=default;gradientColor=default;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="104" y="-1136" width="183" height="181" as="geometry" />
+          <mxGeometry x="67" y="-1413" width="183" height="181" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-20" value="- id : int;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#182E3E;labelBackgroundColor=none;" vertex="1" parent="D-GpD_URcGxK7QM6RUJf-19">
           <mxGeometry y="26" width="183" height="26" as="geometry" />
@@ -158,7 +158,7 @@
           <mxGeometry y="86" width="185" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-60" value="Class Apires" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;swimlaneFillColor=default;labelBorderColor=default;labelBackgroundColor=default;gradientColor=default;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="453" y="-983" width="185" height="164" as="geometry" />
+          <mxGeometry x="381" y="-1327" width="185" height="164" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-62" value="- Endpoint: Vuelo;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#1D3557;" vertex="1" parent="D-GpD_URcGxK7QM6RUJf-60">
           <mxGeometry y="26" width="185" height="26" as="geometry" />
@@ -216,6 +216,12 @@
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-106" value="+&amp;nbsp;getId();" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#1D3557;" vertex="1" parent="D-GpD_URcGxK7QM6RUJf-14">
           <mxGeometry y="164" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="D-GpD_URcGxK7QM6RUJf-109" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;exitX=0.676;exitY=0.009;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="D-GpD_URcGxK7QM6RUJf-6" target="D-GpD_URcGxK7QM6RUJf-69">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="170.99923076923082" y="-1653.9999999999998" as="sourcePoint" />
+            <mxPoint x="236" y="-1779" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
