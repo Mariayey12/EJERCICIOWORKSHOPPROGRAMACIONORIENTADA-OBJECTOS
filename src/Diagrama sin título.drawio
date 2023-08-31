@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T03:24:39.565Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="L5H21v58q-ZtcYXDGHCr" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-31T03:25:00.073Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="YXvhybVk_33D5dQEyD-t" version="21.7.1" type="github">
   <diagram name="Página-1" id="ZE2Og2liTJ8zFDJ8wkAW">
     <mxGraphModel dx="1008" dy="414" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
       <root>
@@ -59,43 +59,43 @@
           <mxGeometry y="196" width="192" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-10" value="Class Vuelo-Fligh" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#66B2FF;fontColor=#182E3E;fillColor=#B1DDF0;labelBackgroundColor=default;labelBorderColor=default;gradientColor=default;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="295" y="240" width="433" height="337" as="geometry" />
+          <mxGeometry x="295" y="270" width="306" height="337" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-36" value="-&amp;nbsp;- id : int;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#1D3557;" vertex="1" parent="D-GpD_URcGxK7QM6RUJf-10">
-          <mxGeometry y="26" width="433" height="26" as="geometry" />
+          <mxGeometry y="26" width="306" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-38" value="- código : string;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#1D3557;" vertex="1" parent="D-GpD_URcGxK7QM6RUJf-10">
-          <mxGeometry y="52" width="433" height="26" as="geometry" />
+          <mxGeometry y="52" width="306" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-47" value="- origen : string;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#1D3557;" vertex="1" parent="D-GpD_URcGxK7QM6RUJf-10">
-          <mxGeometry y="78" width="433" height="26" as="geometry" />
+          <mxGeometry y="78" width="306" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-37" value="- destino : string;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#1D3557;" vertex="1" parent="D-GpD_URcGxK7QM6RUJf-10">
-          <mxGeometry y="104" width="433" height="26" as="geometry" />
+          <mxGeometry y="104" width="306" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-49" value="-fechaLlegada: Local Date Time;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#1D3557;" vertex="1" parent="D-GpD_URcGxK7QM6RUJf-10">
-          <mxGeometry y="130" width="433" height="26" as="geometry" />
+          <mxGeometry y="130" width="306" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-48" value="- fechaSalida :&amp;nbsp;Local DateTime;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#1D3557;" vertex="1" parent="D-GpD_URcGxK7QM6RUJf-10">
-          <mxGeometry y="156" width="433" height="26" as="geometry" />
+          <mxGeometry y="156" width="306" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-54" value="- asientosDispo: int;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#1D3557;" vertex="1" parent="D-GpD_URcGxK7QM6RUJf-10">
-          <mxGeometry y="182" width="433" height="26" as="geometry" />
+          <mxGeometry y="182" width="306" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-55" value="- aerolínea:&amp;nbsp; Aerolíneas;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#1D3557;" vertex="1" parent="D-GpD_URcGxK7QM6RUJf-10">
-          <mxGeometry y="208" width="433" height="26" as="geometry" />
+          <mxGeometry y="208" width="306" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-50" value="- precio : Precios;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#1D3557;" vertex="1" parent="D-GpD_URcGxK7QM6RUJf-10">
-          <mxGeometry y="234" width="433" height="26" as="geometry" />
+          <mxGeometry y="234" width="306" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-51" value="-horario: Horarios;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#1D3557;" vertex="1" parent="D-GpD_URcGxK7QM6RUJf-10">
-          <mxGeometry y="260" width="433" height="26" as="geometry" />
+          <mxGeometry y="260" width="306" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#BAC8D3;fontColor=#182E3E;labelBackgroundColor=none;" vertex="1" parent="D-GpD_URcGxK7QM6RUJf-10">
-          <mxGeometry y="286" width="433" height="8" as="geometry" />
+          <mxGeometry y="286" width="306" height="8" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-13" value="+ Vuelo ( id, codigo,&amp;nbsp; origen, detino,fechaLlegada, fechaSalida,&amp;nbsp;asientosDispo,aerolínea,precio,&amp;nbsp;horario);&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#182E3E;labelBackgroundColor=none;" vertex="1" parent="D-GpD_URcGxK7QM6RUJf-10">
-          <mxGeometry y="294" width="433" height="43" as="geometry" />
+          <mxGeometry y="294" width="306" height="43" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-19" value="ClassReserva " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontColor=#182E3E;fillColor=#B1DDF0;labelBackgroundColor=default;labelBorderColor=default;gradientColor=default;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="270" width="160" height="164" as="geometry" />
