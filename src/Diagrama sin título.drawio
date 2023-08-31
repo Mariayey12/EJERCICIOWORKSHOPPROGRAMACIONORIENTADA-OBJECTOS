@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T00:39:17.450Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Nk8781z3W40VKDcEaVi5" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-31T00:39:59.253Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="2BBBxuWA52i1uAwzHJQx" version="21.7.1" type="github">
   <diagram name="Página-1" id="ZE2Og2liTJ8zFDJ8wkAW">
     <mxGraphModel dx="1222" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
       <root>
@@ -46,7 +46,7 @@
         <mxCell id="D-GpD_URcGxK7QM6RUJf-13" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#1D3557;labelBackgroundColor=none;" vertex="1" parent="D-GpD_URcGxK7QM6RUJf-10">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="D-GpD_URcGxK7QM6RUJf-14" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="D-GpD_URcGxK7QM6RUJf-14" value="Class&amp;nbsp; Aerolínea" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="750" y="140" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="D-GpD_URcGxK7QM6RUJf-15" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#1D3557;labelBackgroundColor=none;" vertex="1" parent="D-GpD_URcGxK7QM6RUJf-14">
