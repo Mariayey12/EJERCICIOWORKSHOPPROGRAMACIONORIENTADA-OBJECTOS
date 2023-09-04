@@ -1,8 +1,4 @@
-package AlquilerE;
-
-
-
-
+package makaia;
 class Capitan {
     private String nombre;
     private String apellido;

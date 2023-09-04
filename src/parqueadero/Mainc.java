@@ -1,4 +1,4 @@
-package sistemaparqueadero;
+package parqueadero;
 
 import java.util.Scanner;
 
@@ -6,20 +6,16 @@ import java.util.Scanner;
 public class Mainc {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.print("\nIngrese la cantidad de filas del parqueadero: ");
         int filas = scanner.nextInt();
         System.out.print("\nIngrese la cantidad de columnas del parqueadero: ");
         int columnas = scanner.nextInt();
         System.out.print("\nIngrese la tarifa por hora: ");
         double tarifaPorHora = scanner.nextDouble();
-
         Parqueadero parqueadero = new Parqueadero(filas, columnas, tarifaPorHora);
-
         System.out.print("\nIngrese la cantidad de carros a registrar: ");
         int cantidadCarros = scanner.nextInt();
         Carro[] carros = new Carro[cantidadCarros];
-
         for (int i = 0; i < cantidadCarros; i++) {
             System.out.println("\nCarro #" + (i + 1));
             scanner.nextLine(); // Limpia el buffer
@@ -31,9 +27,7 @@ public class Mainc {
             String modelo = scanner.nextLine();
             carros[i] = new Carro(placa, marca, modelo);
         }
-
         System.out.println("Registro de carros completado.");
-
         while (true) {
             System.out.println("\n1. Estacionar carro");
             System.out.println("2. Calcular costo de tiempo");
@@ -41,7 +35,6 @@ public class Mainc {
             System.out.println("4. Salir");
             System.out.print("Seleccione una opción: ");
             int opcion = scanner.nextInt();
-
             switch (opcion) {
                 case 1:
                     System.out.print("Ingrese el número de carro (1-" + cantidadCarros + "): ");

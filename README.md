@@ -3,7 +3,7 @@
 Diagrama UML Proyecto Alquiler de Embarcaciones
 
 En este diagrama:Las relaciones de herencia y de implementación están representadas visualmente.
-En el sistema de alquiler de embarcaciones, hay 2 relaciones principales:
+En el sistema de makaia de embarcaciones, hay 2 relaciones principales:
 
 Relación de Compocicción entre Capitan y Embarcacion:
 

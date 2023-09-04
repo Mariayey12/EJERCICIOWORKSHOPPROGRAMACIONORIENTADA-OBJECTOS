@@ -1,5 +1,5 @@
-package AlquilerE;
-class Embarcacion  {
+package makaia;
+abstract class Embarcacion  {
     private Capitan capitan;
     private double precioBase;
     private double valorAdicional;
@@ -33,5 +33,9 @@ class Embarcacion  {
     public double getEslora() {
         return eslora;
     }
-}
 
+
+    // Método abstracto para calcular el alquiler
+    public abstract double calcularAlquiler();
+
+}

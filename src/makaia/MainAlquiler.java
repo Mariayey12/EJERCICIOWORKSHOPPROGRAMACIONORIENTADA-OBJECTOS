@@ -1,9 +1,8 @@
-package AlquilerE;
+package makaia;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-
 
 public class MainAlquiler {
     public static void main(String[] args) {
@@ -22,14 +21,14 @@ public class MainAlquiler {
             double valorAdicional = random.nextDouble() * 200;
             int añoFabricacion = random.nextInt(10) + 2010;
             double eslora = random.nextDouble() * 20 + 5;
-            int cantMastiles = random.nextInt(6);
-            int cantCamarotes = random.nextInt(10);
+            int cantidadMastiles = random.nextInt(6);
+            int cantidadCamarotes = random.nextInt(10);
 
             Embarcacion embarcacion;
-            if (cantMastiles > 0) {
-                embarcacion = new Velero(capitan, precioBase, valorAdicional, añoFabricacion, eslora, cantMastiles);
+            if (cantidadMastiles > 0) {
+                embarcacion = new Velero(precioBase, valorAdicional, añoFabricacion, eslora, capitan, cantidadMastiles);
             } else {
-                embarcacion = new Yate(capitan, precioBase, valorAdicional, añoFabricacion, eslora, cantCamarotes);
+                embarcacion = new Yate(precioBase, valorAdicional, añoFabricacion, eslora, capitan, cantidadCamarotes);
             }
             embarcaciones.add(embarcacion);
         }
@@ -48,15 +47,15 @@ public class MainAlquiler {
             System.out.println("Eslora: " + embarcacion.getEslora());
             if (embarcacion instanceof Velero) {
                 Velero velero = (Velero) embarcacion;
-                System.out.println("Cantidad de mástiles: " + velero.cantMastiles);
+                System.out.println("Cantidad de mástiles: " + velero.getCantidadMastiles());
                 System.out.println("Es grande: " + velero.esGrande());
             } else {
                 Yate yate = (Yate) embarcacion;
-                System.out.println("Cantidad de camarotes: " + yate.cantCamarotes);
+                System.out.println("Cantidad de camarotes: " + yate.getCantidadCamarotes());
                 System.out.println("Es de lujo: " + yate.esLujo());
             }
 
-          double montoAlquiler = ((Alquiler) embarcacion).calcularMontoAlquiler();
+            double montoAlquiler = ( embarcacion).calcularAlquiler();
             System.out.println("Monto del alquiler: $" + montoAlquiler);
         }
     }

@@ -1,4 +1,4 @@
-package sistemaparqueadero;
+package parqueadero;
 
 public class Carro {
     private String placa;
